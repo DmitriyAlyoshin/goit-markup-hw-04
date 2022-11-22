@@ -292,13 +292,26 @@ button {
   justify-content: space-between;
 }
 
-.features-list .list .item {
+.features-list .list .item .icon-picture {
+  margin-bottom: 30px;
   width: 270px;
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--button-bgd-color);
+  border-radius: 4px;
+  color: var(--title-and-btn-color);
+}
+
+.features-list .list .item .item-icon {
+  fill: currentColor;
 }
 
 .features-list .title {
   margin-bottom: 10px;
-
+  
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -307,7 +320,7 @@ button {
 .features-list .text {
   margin-top: 0;
   margin-bottom: 0;
-
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
 }
