@@ -165,7 +165,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-.contacts-header .item .item-icon {  
+.contacts-header .item .item-icon {
   fill: currentColor;
   /* scale: 1.3333; */
 
@@ -188,10 +188,22 @@ button {
 /* In the future there'll be image */
 
 .hero {
-  /*--For visual height--*/
-  padding-bottom: 200px;
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background-hero-min.jpg");
+  background-color: #c4c4c4;
 
-  background-color: #2f303a;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
   text-align: center;
 }
 
@@ -233,6 +245,8 @@ button {
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button.primary {
