@@ -419,6 +419,52 @@ button {
   color: var(--primary-white-color);
 }
 
+/* -----Our clients!----- */
+
+.clients .title {
+  margin-bottom: 0;
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.clients .list {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(6, 170px); 
+  column-gap: 30px; 
+  
+}
+
+.clients .list .items {
+ 
+}  
+
+
+.clients .list .link { 
+  display: flex;
+  height: 92px;
+  justify-content: center; 
+  align-items: center;
+  
+  color: red;
+  border: 1px solid var(--networks-icon-color);
+  border-radius: 4px;
+}
+
+.clients .list .link .icon-clients {
+  fill: currentColor;
+}
+
+.clients .list .link:hover,
+.clients .list .link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+  
+
 /* --------------------Main Portfolio Part!-------------------- */
 
 .filtr {
