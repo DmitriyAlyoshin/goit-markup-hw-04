@@ -623,10 +623,14 @@ button {
 }
 
 .page-footer .list-networks .social-networks {
+  /* Field expansion */
+  padding: 12px;
+  
   color: var(--primary-white-color);
 }
 
 .page-footer .networks .icon-networks {
+  display: block;
   fill: currentColor;
 }
 
